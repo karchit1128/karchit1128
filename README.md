@@ -23,15 +23,15 @@ I don't just study this stuff, I build with it. Over the last year I've worked a
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/about?username=karchit1128&theme=aurora&mode=light&v=2" />
-    <img src="https://www.gitskins.com/api/section/about?username=karchit1128&theme=aurora&mode=dark&v=2" width="100%" alt="About Archit Kumar" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/karchit1128/karchit1128/output/about-light.svg" />
+    <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/about-dark.svg" width="100%" alt="About Archit Kumar" />
   </picture>
 </p>
 
 ## Selected work
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/projects?username=karchit1128&theme=aurora&v=2" width="100%" alt="Selected projects by Archit Kumar" />
+  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/projects.svg" width="100%" alt="Selected projects by Archit Kumar" />
 </p>
 
 | Project | What it is |
@@ -46,11 +46,11 @@ I don't just study this stuff, I build with it. Over the last year I've worked a
 ## Engineering signal
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/stack?username=karchit1128&theme=aurora&v=2" width="100%" alt="Technology stack for Archit Kumar" />
+  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/stack.svg" width="100%" alt="Technology stack for Archit Kumar" />
 </p>
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=karchit1128&theme=aurora&v=2" width="100%" alt="GitHub activity stats for Archit Kumar" />
+  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/stats.svg" width="100%" alt="GitHub activity stats for Archit Kumar" />
 </p>
 
 ## A profile that moves
@@ -64,7 +64,7 @@ The contribution graph is part of the profile experience. It refreshes automatic
 ## Current focus
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/highlights?username=karchit1128&theme=aurora&items=Robotics::Building%20autonomous%20systems|AI%20Tools::Developing%20intelligent%20software|Embedded%20Systems::Bridging%20silicon%20and%20code&v=2" width="100%" alt="Current focus areas for Archit Kumar" />
+  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/highlights.svg" width="100%" alt="Current focus areas for Archit Kumar" />
 </p>
 
 <p align="center">

@@ -37,6 +37,21 @@ jobs:
           mkdir -p dist
           python -m pip install "gh-space-shooter==2.0.4"
           gh-space-shooter ${{ github.repository_owner }} --output dist/github-space-shooter.gif
+          
+      - name: Fetch and clean GitSkins SVGs
+        run: |
+          mkdir -p dist
+          
+          echo "Downloading SVGs..."
+          curl -s "https://www.gitskins.com/api/section/about?username=${{ github.repository_owner }}&theme=aurora&mode=light" -o dist/about-light.svg
+          curl -s "https://www.gitskins.com/api/section/about?username=${{ github.repository_owner }}&theme=aurora&mode=dark" -o dist/about-dark.svg
+          curl -s "https://www.gitskins.com/api/section/projects?username=${{ github.repository_owner }}&theme=aurora" -o dist/projects.svg
+          curl -s "https://www.gitskins.com/api/section/stack?username=${{ github.repository_owner }}&theme=aurora" -o dist/stack.svg
+          curl -s "https://www.gitskins.com/api/section/stats?username=${{ github.repository_owner }}&theme=aurora" -o dist/stats.svg
+          curl -s "https://www.gitskins.com/api/section/highlights?username=${{ github.repository_owner }}&theme=aurora&items=Robotics::Building%20autonomous%20systems|AI%20Tools::Developing%20intelligent%20software|Embedded%20Systems::Bridging%20silicon%20and%20code" -o dist/highlights.svg
+          
+          echo "Removing watermarks..."
+          sed -i '/gitskins.com/d' dist/*.svg
             
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
