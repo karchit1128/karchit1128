@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/wordmark?username=karchit1128&theme=aurora&label=Archit%20Kumar&v=2" width="100%" alt="Animated 3D wordmark for Archit Kumar" />
+  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/wordmark.svg" width="100%" alt="Animated 3D wordmark for Archit Kumar" />
 </p>
 
 ## Building at the intersection of silicon and software
