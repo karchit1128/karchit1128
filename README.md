@@ -36,7 +36,7 @@ I don't just study this stuff, I build with it. Over the last year I've worked a
 
 | Project | What it is |
 | --- | --- |
-| [Lumora](https://github.com/karchit1128/Lumora) | AI Agent |
+| Lumora | AI Agent |
 | Bullish-Idea | Something that student desperately need |
 
 <p align="center">
@@ -71,6 +71,3 @@ The contribution graph is part of the profile experience. It refreshes automatic
   <a href="https://github.com/karchit1128?tab=repositories">See all repositories</a>
 </p>
 
-<p align="center">
-  <sub>Designed with GitSkins.</sub>
-</p>
