@@ -37,6 +37,7 @@ I don't just study this stuff, I build with it. Over the last year I've worked a
 | Project | What it is |
 | --- | --- |
 | [Lumora](https://github.com/karchit1128/Lumora) | AI Agent |
+| [Bullish-Idea](https://github.com/karchit1128/Bullish-Idea) | *Add your project description here!* |
 
 <p align="center">
   <a href="https://github.com/karchit1128?tab=repositories"><b>Explore all repositories</b></a>
