@@ -43,6 +43,8 @@ jobs:
           
           urls = {
               "wordmark.svg": "https://www.gitskins.com/api/section/wordmark?username=${{ github.repository_owner }}&theme=aurora&label=Archit%20Kumar",
+              "hero-light.svg": "https://www.gitskins.com/api/section/hero?username=${{ github.repository_owner }}&theme=aurora&mode=light",
+              "hero-dark.svg": "https://www.gitskins.com/api/section/hero?username=${{ github.repository_owner }}&theme=aurora&mode=dark",
               "about-light.svg": "https://www.gitskins.com/api/section/about?username=${{ github.repository_owner }}&theme=aurora&mode=light",
               "about-dark.svg": "https://www.gitskins.com/api/section/about?username=${{ github.repository_owner }}&theme=aurora&mode=dark",
               "projects.svg": "https://www.gitskins.com/api/section/projects?username=${{ github.repository_owner }}&theme=aurora&repos=${{ github.repository_owner }}/Lumora,${{ github.repository_owner }}/Bullish-Idea",
