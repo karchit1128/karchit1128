@@ -30,14 +30,48 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Generate Space Shooter GIF
+      - name: Generate Images & Clean SVGs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p dist
-          python -m pip install "gh-space-shooter==2.0.4"
+          python -m pip install "gh-space-shooter==2.0.4" requests
           gh-space-shooter ${{ github.repository_owner }} --output dist/github-space-shooter.gif
           
+          cat << 'EOF' > clean_svgs.py
+          import requests, re, time
+          
+          urls = {
+              "about-light.svg": "https://www.gitskins.com/api/section/about?username=${{ github.repository_owner }}&theme=aurora&mode=light",
+              "about-dark.svg": "https://www.gitskins.com/api/section/about?username=${{ github.repository_owner }}&theme=aurora&mode=dark",
+              "projects.svg": "https://www.gitskins.com/api/section/projects?username=${{ github.repository_owner }}&theme=aurora",
+              "stack.svg": "https://www.gitskins.com/api/section/stack?username=${{ github.repository_owner }}&theme=aurora",
+              "stats.svg": "https://www.gitskins.com/api/section/stats?username=${{ github.repository_owner }}&theme=aurora",
+              "highlights.svg": "https://www.gitskins.com/api/section/highlights?username=${{ github.repository_owner }}&theme=aurora&items=Robotics::Building%20autonomous%20systems|AI%20Tools::Developing%20intelligent%20software|Embedded%20Systems::Bridging%20silicon%20and%20code"
+          }
+          
+          for filename, url in urls.items():
+              for attempt in range(5):
+                  print(f"Fetching {filename} (Attempt {attempt+1})...")
+                  try:
+                      resp = requests.get(url, timeout=15)
+                      content = resp.text
+                      if content.strip().endswith('</svg>'):
+                          # Clean the watermark
+                          cleaned = re.sub(r'<text[^>]*>gitskins\.com</text>', '', content)
+                          with open(f"dist/{filename}", "w", encoding="utf-8") as f:
+                              f.write(cleaned)
+                          print(f"Successfully saved and cleaned {filename}")
+                          break
+                      else:
+                          print("Warning: Truncated SVG received. Retrying...")
+                          time.sleep(2)
+                  except Exception as e:
+                      print(f"Error: {e}. Retrying...")
+                      time.sleep(2)
+          EOF
+          
+          python clean_svgs.py
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
