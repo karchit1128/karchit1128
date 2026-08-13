@@ -36,9 +36,7 @@ I don't just study this stuff, I build with it. Over the last year I've worked a
 
 | Project | What it is |
 | --- | --- |
-| [Awesome Project 1](https://github.com/karchit1128/project1) | A brief description of what this project does and why it's cool. |
-| [Awesome Project 2](https://github.com/karchit1128/project2) | Another great repository highlighting your skills. |
-| [Awesome Project 3](https://github.com/karchit1128/project3) | A tool or library you built to solve a specific problem. |
+| [Lumora](https://github.com/karchit1128/Lumora) | AI Agent |
 
 <p align="center">
   <a href="https://github.com/karchit1128?tab=repositories"><b>Explore all repositories</b></a>
