@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Space Shooter
 
 on:
   schedule:
@@ -22,13 +22,21 @@ jobs:
     timeout-minutes: 5
     
     steps:
-      - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          python-version: '3.12'
+
+      - name: Generate Space Shooter GIF
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p dist
+          python -m pip install "gh-space-shooter==2.0.4"
+          gh-space-shooter ${{ github.repository_owner }} --output dist/github-space-shooter.gif
             
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
