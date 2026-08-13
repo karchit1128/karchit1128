@@ -37,7 +37,7 @@ I don't just study this stuff, I build with it. Over the last year I've worked a
 | Project | What it is |
 | --- | --- |
 | [Lumora](https://github.com/karchit1128/Lumora) | AI Agent |
-| [Bullish-Idea](https://github.com/karchit1128/Bullish-Idea) | *Add your project description here!* |
+| [Bullish-Idea] | Something that student desperately need |
 
 <p align="center">
   <a href="https://github.com/karchit1128?tab=repositories"><b>Explore all repositories</b></a>
@@ -57,7 +57,12 @@ I don't just study this stuff, I build with it. Over the last year I've worked a
 
 The contribution graph is part of the profile experience. It refreshes automatically from this repository and turns public activity into a small visual system.
 
-*(Note: To display an animated space-shooter contribution graph like the demo, you will need to set up a GitHub Action in your profile repository using [snk](https://github.com/Platane/snk) or a similar action!)*
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/karchit1128/karchit1128/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated GitHub contribution snake" />
+  </picture>
+</p>
 
 ## Current focus
 
