@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/karchit1128/karchit1128/output/hero-light.svg?v=1" />
-    <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/hero-dark.svg?v=1" width="100%" alt="Animated profile hero for Archit Kumar" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/karchit1128/karchit1128/output/hero-light.svg?v=2" />
+    <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/hero-dark.svg?v=2" width="100%" alt="Animated profile hero for Archit Kumar" />
   </picture>
 </p>
 
