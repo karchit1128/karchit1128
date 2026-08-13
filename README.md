@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/karchit1128/karchit1128/output/hero-light.svg?v=2" />
-    <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/hero-dark.svg?v=2" width="100%" alt="Animated profile hero for Archit Kumar" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/karchit1128/karchit1128/output/hero-light.svg" />
+    <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/hero-dark.svg" width="100%" alt="Animated profile hero for Archit Kumar" />
   </picture>
 </p>
 
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/wordmark.svg?v=2" width="100%" alt="Animated 3D wordmark for Archit Kumar" />
+  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/wordmark.svg" width="100%" alt="Animated 3D wordmark for Archit Kumar" />
 </p>
 
 ## Building at the intersection of silicon and software
@@ -23,15 +23,15 @@ I don't just study this stuff, I build with it. Over the last year I've worked a
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/karchit1128/karchit1128/output/about-light.svg?v=2" />
-    <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/about-dark.svg?v=2" width="100%" alt="About Archit Kumar" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/karchit1128/karchit1128/output/about-light.svg" />
+    <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/about-dark.svg" width="100%" alt="About Archit Kumar" />
   </picture>
 </p>
 
 ## Selected work
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/projects.svg?v=2" width="100%" alt="Selected projects by Archit Kumar" />
+  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/projects.svg" width="100%" alt="Selected projects by Archit Kumar" />
 </p>
 
 | Project | What it is |
@@ -46,28 +46,27 @@ I don't just study this stuff, I build with it. Over the last year I've worked a
 ## Engineering signal
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/stack.svg?v=2" width="100%" alt="Technology stack for Archit Kumar" />
+  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/stack.svg" width="100%" alt="Technology stack for Archit Kumar" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/stats.svg?v=2" width="100%" alt="GitHub activity stats for Archit Kumar" />
+  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/stats.svg" width="100%" alt="GitHub activity stats for Archit Kumar" />
 </p>
 
 ## A profile that moves
 
-The contribution graph is part of the profile experience. It refreshes automatically from this repository and turns public activity into a small visual system.
+The contribution graph is part of the profile experience. It refreshes automatically and turns public activity into a small visual system.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/github-space-shooter.gif" width="100%" alt="Animated GitHub space shooter" />
+  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/activity-graph.gif" width="100%" alt="Animated GitHub space shooter" />
 </p>
 
 ## Current focus
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/highlights.svg?v=2" width="100%" alt="Current focus areas for Archit Kumar" />
+  <img src="https://raw.githubusercontent.com/karchit1128/karchit1128/output/highlights.svg" width="100%" alt="Current focus areas for Archit Kumar" />
 </p>
 
 <p align="center">
   <a href="https://github.com/karchit1128?tab=repositories">See all repositories</a>
 </p>
-
