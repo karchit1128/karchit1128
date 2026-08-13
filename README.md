@@ -37,7 +37,7 @@ I don't just study this stuff, I build with it. Over the last year I've worked a
 | Project | What it is |
 | --- | --- |
 | Lumora | AI Agent |
-| Bullish-Idea | Something that student desperately need |
+| Campus OS | Something that student desperately need |
 
 <p align="center">
   <a href="https://github.com/karchit1128?tab=repositories"><b>Explore all repositories</b></a>

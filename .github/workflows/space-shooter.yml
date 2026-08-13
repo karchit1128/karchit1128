@@ -44,7 +44,7 @@ jobs:
           urls = {
               "about-light.svg": "https://www.gitskins.com/api/section/about?username=${{ github.repository_owner }}&theme=aurora&mode=light",
               "about-dark.svg": "https://www.gitskins.com/api/section/about?username=${{ github.repository_owner }}&theme=aurora&mode=dark",
-              "projects.svg": "https://www.gitskins.com/api/section/projects?username=${{ github.repository_owner }}&theme=aurora",
+              "projects.svg": "https://www.gitskins.com/api/section/projects?username=${{ github.repository_owner }}&theme=aurora&repos=${{ github.repository_owner }}/Lumora,${{ github.repository_owner }}/Bullish-Idea",
               "stack.svg": "https://www.gitskins.com/api/section/stack?username=${{ github.repository_owner }}&theme=aurora",
               "stats.svg": "https://www.gitskins.com/api/section/stats?username=${{ github.repository_owner }}&theme=aurora",
               "highlights.svg": "https://www.gitskins.com/api/section/highlights?username=${{ github.repository_owner }}&theme=aurora&items=Robotics::Building%20autonomous%20systems|AI%20Tools::Developing%20intelligent%20software|Embedded%20Systems::Bridging%20silicon%20and%20code"
